@@ -15,6 +15,25 @@ and the github project is at: https://github.com/jeanphix/Ghost.py (while, i do 
 
 ghost.py is a webkit web client written in python, whick could analysis javascript in the webpage.  thus, PyQT is needed.  The core of the project is of course the QtWebkit module. 
 
-another opensourse, phantomjs, is doing the same thing, and very much similar to this object. 
+
+3, Another opensourse, phantomjs, is doing the same thing, whick also based on Webkit
 http://code.google.com/p/phantomjs/
 this project has both c++ and python version. 
+The phantomjs is targeted to interpret JS or CoffieScript code in the server side. 
+To compile from the source code, you need the QT, which is very big. Or you could use the binary file directly. 
+
+I've used this to crawl webpage area which contains js code. the command is as:
+
+DISPLAY=:0 ./phantomjs/bin/phantomjs ./get_webpage.js url
+
+and the get_webpage.js is the javascrip code, which open and run the url and print the actural html code to the stdout
+
+var page = new WebPage();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+setTimeout(function(){ phantom.exit()}, 30 * 1000);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+page.open(phantom.args[0] , function(status){
+    console.log(page.content);
+    phantom.exit();
+});
+
+
+
