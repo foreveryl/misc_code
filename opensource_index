@@ -1,0 +1,20 @@
+假舆马者，非利足也，而致千里；
+假舟楫者，非能水也，而绝江河。
+---荀子<<劝学篇>>
+
+opensource project index:
+
+1, http://pycoders.com/2012/ 
+most interesting and noteworthy projects of 2012
+
+
+2, ghost.py, as one of the 'projects of 2012' voted by pycoder, is introduced as:
+http://jeanphix.me/Ghost.py/#javascript
+and the github project is at: https://github.com/jeanphix/Ghost.py (while, i do not know how to folk currently)
+
+
+ghost.py is a webkit web client written in python, whick could analysis javascript in the webpage.  thus, PyQT is needed.  The core of the project is of course the QtWebkit module. 
+
+another opensourse, phantomjs, is doing the same thing, and very much similar to this object. 
+http://code.google.com/p/phantomjs/
+this project has both c++ and python version. 
