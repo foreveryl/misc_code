@@ -1,0 +1,19 @@
+1, github 简介:
+http://hi.baidu.com/eehuang/item/22283e220437a80d76272cb7
+
+2, 使用github 搭建 blog:
+http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
+
+3, github 基本命名:
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/foreveryl/hello_git.git
+git push -u origin master
+Push an existing repository from the command line
+
+
+git remote add origin https://github.com/foreveryl/hello_git.git
+git push -u origin master
