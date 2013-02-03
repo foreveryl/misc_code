@@ -36,6 +36,24 @@ http://www.cnblogs.com/TheGrandDesign/articles/2573282.html
 3, python 下也有类似的东西. 叫: hyde
 
 
+jekyll 有基本的文件格式: 可参考上面的那个链接. 
+
+现在可以启动jekyll了:
+jekyll <path_to_source dir> <file to be generated> --server 默认在4000 端口.  
+然后在浏览器. 
+OK
+
+另外. 前面提到. github 中的pages 也是以jekyll 作为引擎来生成的. 这就是为啥提交后要等10分钟左右才能生效:)
+所以, 在本地, 可以当作一个debug 环境啊.  
+
+关于在github上搭建blog, 参考如下链接:
+http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html
+
+
+下一步: 找个好看的jekyll blog 模板吧.. 然后开始写blog. 
+
+
+//END
 
 新的名词:
 1, rake: 
