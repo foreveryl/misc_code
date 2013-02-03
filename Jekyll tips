@@ -1,0 +1,47 @@
+1, Jekyll 是什么?
+"一个简洁的、特别针对博客平台的 静态网站 生成器。它使用一个模板目录作为网站布局的基础框架，
+并在其上运行 Textile 、 Markdown 或 Liquid 标记语言的转换器，最终生成一个完整的静态Web站点
+"
+
+2, 安装:
+
+wget "http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p0.tar.gz"
+tar ---
+./configure ...
+make && make install
+
+然后就会发现gem  gem 就当作是pip 至于python的作用吧.. 管理package的. 
+
+但是在:
+gem install jekyll 时:
+
+“It seems your ruby installation is missing psych (for YAML output). 
+To eliminate this warning, please install libyaml and reinstall your ruby.”
+
+编译yaml 
+http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+
+再重新编译ruby:
+./configure --prefix=/home/yaolu/install/ruby/ \
+--with-opt-dir=/home/yaolu/install/lib/yaml/  #yaml 编译所在的路径
+
+重新安装jekyll. 则一切ok
+
+
+关于jekyll: 下面的博客介绍的非常详细. 
+http://www.cnblogs.com/TheGrandDesign/articles/2573282.html
+总结:
+1, 他是静态网页生成器. 生成后的代码, 可以运行, 部署在任何web server 上.
+2, github pages 也是用jekyll作为引擎的. 
+3, python 下也有类似的东西. 叫: hyde
+
+
+
+新的名词:
+1, rake: 
+简单的讲, rake == ruby make
+复杂的讲: 详见如下blog
+http://blog.csdn.net/smilewater/article/details/1683808
+
+
+
