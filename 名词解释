@@ -1,0 +1,7 @@
+1, websocket
+http://baike.baidu.com/view/3623887.htm
+
+简单的说:
+
+html5 下的产物. 
+浏览器 和 服务器 之间也能像tcp socket 一样做双向通讯. 
