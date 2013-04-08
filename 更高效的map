@@ -10,6 +10,9 @@ https://code.google.com/p/cpp-btree/wiki/UsageInstructions
 3）， 需要 C++ 11 支持。。
 公司的gcc 版本太低， 目前还没发编译过demo。。
 
+不需要C++ 11 支持的patch ， 感谢 @chen3feng 大神。
+https://code.google.com/p/cpp-btree/issues/detail?id=18
+
 cpp-btree相比red-black tree，性能提升的原因：“cache局部性提高和动态内存分配次数的减少”
 
 
