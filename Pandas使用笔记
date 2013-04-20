@@ -20,3 +20,13 @@ pd_data.values
 获取某一列的Series:
 pd_data["column_name"]
 
+
+groupby 命令:
+data.groupby("PaperId")
+for name, group in a:
+  prine name, group
+
+
+取某一行值: 注意是取第几行.
+data.xs(0)
+data.xs(0)["AuthorId"]
