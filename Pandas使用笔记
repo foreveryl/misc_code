@@ -1,0 +1,22 @@
+1, load csv data:
+pd_data = pd.read_csv(file_path) 
+
+2, Series:
+转换成list:  
+pd_data.values
+
+求长度:
+pd_data.size
+
+
+3, DataFram:
+返回原始数据. 
+[
+  [ row data 1], 
+  [ row data 2],
+]
+pd_data.values 
+
+获取某一列的Series:
+pd_data["column_name"]
+
