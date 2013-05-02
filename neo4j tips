@@ -1,0 +1,6 @@
+1, python py2neo
+python 连接到 neo4j的库
+
+START n=node(*) RETURN n;
+START n=node(*) match n-[r]-() RETURN n,r
+
